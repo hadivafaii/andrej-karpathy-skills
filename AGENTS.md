@@ -4,6 +4,18 @@ This repo contains the accompanying code for a <PLACE_HOLDER> paper I am writing
 
 The `paper/` folder contains theoretical derivations and material you'd need to understand this project.
 
+# WandB and analysis instructions
+
+I am logging my fits using W&B. I will sometimes ask you to perform some analyses by pulling runs from W&B.
+
+## W&B path
+
+Use the local W&B login to query `pal-lab/<PLACE_HOLDER>`; request persistent Codex network approval if needed. In general, I give you permission to have full access to my W&B data.
+
+## Analysis
+
+I will provide you with details about what to analyze and how to present them. If I did not provide instructions, use your best judgment and find results that would be interesting, considering the scope and underlying motivations of the project.
+
 # Coding instructions
 
 Follow these instructions before writing code.
@@ -67,3 +79,8 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+# Minor details 
+
+- I am using Python 3.11.8
+- Never import from __future__ (e.g., never do this `from __future__ import ...`)
